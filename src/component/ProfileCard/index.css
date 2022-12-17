@@ -1,0 +1,104 @@
+.profile-bg-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 25vw;
+  background-color: #32a85a;
+  height: 100vh;
+}
+.log-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.circle-logo {
+  max-width: 80px;
+  max-height: 80px;
+  background-color: #32a85a;
+  margin: 15px;
+}
+.naava-logo {
+  max-width: 130px;
+  max-height: 130px;
+  background-color: transparent;
+  margin: 15px;
+}
+.separator {
+  width: 330px;
+  height: 3px;
+}
+.profile-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 15px;
+}
+.circle {
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  margin-left: 5px;
+  background-color: lightgreen;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+.admin-name {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 600;
+}
+.admin {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: -20px;
+}
+.icons {
+  margin-left: 15px;
+  margin-top: -30px;
+  cursor: pointer;
+}
+.category-list {
+  list-style-type: none;
+}
+.category-dashboard-item {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.dashboard-contain {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.home-icon {
+  margin-left: -20px;
+  align-self: flex-start;
+  margin-right: 15px;
+  color: #ffffff;
+}
+.category-item {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  padding-left: 30px;
+  padding-top: 15px;
+  cursor: pointer;
+}
+.drop-down {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.icon {
+  margin-left: 15px;
+
+  cursor: pointer;
+}

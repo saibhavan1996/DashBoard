@@ -1,0 +1,133 @@
+.search-bg-container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  font-size: 30px;
+  color: #090926;
+  align-self: flex-start;
+  padding: 20px;
+  font-family: 'Roboto';
+}
+.search-container-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+.search-input-container {
+  border: 1px solid blanchedalmond;
+  border-radius: 7px;
+  height: 40px;
+  width: 370px;
+  display: flex;
+  align-items: center;
+}
+.search-icon {
+  margin-right: 5px;
+}
+.search-bar {
+  height: 40px;
+  width: 300px;
+  margin-left: 30px;
+  padding-top: 5px;
+  border-radius: 6px;
+  border-style: none;
+  background-color: transparent;
+  outline: none;
+  color: #090926;
+  font-size: 14px;
+  font-family: 'Roboto';
+}
+.add-btn {
+  background-color: #32a85a;
+  color: #ffffff;
+  height: 45px;
+  width: 110px;
+  margin-left: 30px;
+  border-radius: 6px;
+  border-style: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 16px;
+}
+.page-controller {
+  height: 40px;
+  width: 110px;
+  margin-left: 30px;
+  margin-top: 5px;
+  border-radius: 6px;
+  border: 1px solid blanchedalmond;
+  background-color: transparent;
+  outline: none;
+  color: #090926;
+  font-size: 14px;
+  font-family: 'Roboto';
+  visibility: visible;
+}
+.entry-input-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: -10px;
+}
+.show {
+  color: #090926;
+  font-size: 17px;
+  font-family: 'Roboto';
+  padding: 5px;
+  padding-right: -5px;
+}
+.searchInput {
+  display: flex;
+  align-items: flex-end;
+}
+
+.doctor-details-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  margin-top: 45px;
+}
+.details-head-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 75vw;
+}
+.name {
+  padding-left: 20px;
+  color: #090926;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+.list-separator {
+  width: 65vw;
+  height: 2px;
+}
+.no-list-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 250px;
+  margin-top: 60px;
+}
+.no-list-image {
+  height: 350px;
+  width: 450px;
+}
+.no-list {
+  color: #090926;
+  font-size: 18px;
+  font-family: 'Roboto';
+}

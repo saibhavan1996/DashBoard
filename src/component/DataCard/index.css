@@ -1,0 +1,42 @@
+.dataName {
+  text-align: start;
+  padding-left: -20px;
+  color: #090926;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  min-width: 50px;
+  width: 100px;
+  text-align: start;
+  margin-left: 10px;
+}
+.data-details-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 75vw;
+}
+.batchNo {
+  color: #32a85a;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  min-width: 50px;
+  width: 100px;
+}
+.location {
+  color: #090926;
+  font-size: 16px;
+  font-family: 'Roboto';
+  min-width: 50px;
+  width: 100px;
+}
+.experience {
+  padding-left: 10px;
+  color: #090926;
+  font-size: 16px;
+  font-family: 'Roboto';
+  min-width: 50px;
+  width: 100px;
+}
